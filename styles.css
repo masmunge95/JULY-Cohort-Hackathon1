@@ -1,0 +1,110 @@
+/* Adding icon before About Me heading */
+.about-icon::before {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  vertical-align: middle;
+  background-image: url('Assets/about-removebg-preview.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Adding icon before Educational Background heading */
+.education-icon::before {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  vertical-align: middle;
+  background-image: url('Assets/graduation .png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Adding icon before Interests heading */
+.interests-icon::before {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  vertical-align: middle;
+  background-image: url('Assets/technician-removebg-preview.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Adding icon before Projects heading */
+.projects-icon::before {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  vertical-align: middle;
+  background-image: url('Assets/presentation-removebg-preview.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Adding icon before Contact Me heading */
+.contact-icon::before {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  vertical-align: middle;
+  background-image: url('Assets/contact-removebg-preview.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* Add vertical spacing between main content blocks for better aesthetics */
+h1 {
+  margin-top: 0; /* Keep header at top */
+  margin-bottom: 1em;
+}
+h2 {
+  margin-top: 2.2em; /* Space above section headings */
+  margin-bottom: 1em;
+}
+
+p, ol, ul {
+  margin-top: 1.2em; /* Space above and below paragraphs/lists */
+  margin-bottom: 1.2em;
+}
+
+ul, ol {
+  padding-left: 2em; /* Indent lists */
+}
+/* General icon style for inline icons */
+.icon {
+  font-size: 1.2em;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+/* Profile image style for circular avatar */
+.profile-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 8px;
+  vertical-align: middle;
+  border: 2px solid #ffe066; /* Accent border */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Subtle shadow */
+  background-color: #fff; /* fallback for transparent images */
+}
+/* --- Background image applied to body START --- */
+body {
+  background-image: url("Assets/hwT7ZlQF.jpg"); /* Main background image for the site */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #c5e4ef; /* Text color for the whole site */
+}
+/* --- Background image applied to body END --- */
