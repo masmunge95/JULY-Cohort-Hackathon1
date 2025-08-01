@@ -4,53 +4,60 @@ Welcome to my personal portfolio website! This project serves as an introduction
 
 ## 🌐 Project Overview
 
-This website is a beginner-friendly HTML/CSS portfolio that includes the following sections:
+This portfolio is built entirely with **HTML** and **CSS**, showcasing a clean structure and a modern, rocket-themed dark design.  
+It features:
 
-- **Introduction & Contact Icons**
-- **Educational Background**
-- **Interests**
-- **Projects**
-- **Contact Information**
+- **Introduction & Profile Section** with clickable contact icons
+- **Educational Background** with a downloadable CV
+- **Interests** in tech fields like AI and Data Science
+- **Projects** with links to GitHub repositories
+- **Contact Section** with email and a Google Forms link
+- **Footer** for branding and copyright
 
 It also includes a downloadable CV and links to example projects.
 
 ## 📁 Project Structure
 
 ```
-├── Portfolio.html         # Main HTML file
-├── styles.css             # Custom CSS styling
+├── index.html         # Main HTML file with all sections
+├── styles.css             # Custom CSS styling (Dark theme, responsive design)
 └── Assets/                # Folder containing images, icons, and CV
     ├── 20250730_130650.jpg               # Profile image and favicon
     ├── Samuel Waema Professional CV.pdf  # Downloadable CV
+    ├── about-removebg-preview.png        # About section icon (optional)
     ├── graduation .png                   # Icon for education section
     ├── technician-removebg-preview.png   # Icon for interests section
+    ├── code-removebg-preview.png         # Icon for programming languages section
     ├── presentation-removebg-preview.png # Icon for projects section
     ├── contact-removebg-preview.png      # Icon for contact section
     ├── about-removebg-preview.png        # (optional) About icon
-    └── hwT7ZlQF.jpg                      # Background image
+    └── hwT7ZlQF.jpg                      # Rocket Background image
 ```
 
 ## 🛠️ Technologies Used
 
-- **HTML5** — Page structure
-- **CSS3** — Styling and layout
-- **Responsive design elements** — Icons, spacing, and images
+- **HTML5** — Semantic structure for each section
+- **CSS3** — Custom styling, dark theme, hover effects, and layout
+- **Responsive design** — Works well on desktop, tablet, and mobile
 
 ## 📌 Features
 
-- Clean layout with icons for each major section
-- Personal introduction and academic background
-- Interests in emerging technologies
-- Downloadable CV
-- Example project links (e.g., a Python calculator)
-- Email contact and link to contact form
+- ✨ **Modern dark theme** with rocket-inspired orange highlights
+- 🖼️ **Icons** for each major section for a clean, organized look
+- 🎓 **Education section** with CV download
+- 📚 **Interests section** (Web Dev, AI, Data Science)
+- 📂 **Projects section** with GitHub links (e.g., Python calculator)
+- 📧 **Contact section** with email and Google Form
+- 📜 **Footer** for copyright and branding
 
 ## 🚀 Getting Started
 
 To run this project locally:
 
-1. Clone or download the repository.
-2. Make sure all the image assets and `styles.css` are in the correct `Assets/` folder.
+1. Clone or download the repository:
+   ```bash
+   git clone https://github.com/masmunge95/JULY-Cohort-Hackathon1.git
+2. Ensure all assets in the Assets/ folder remain in place.
 3. Open `index.html` in your browser.
 
 ## ✍️ Author
