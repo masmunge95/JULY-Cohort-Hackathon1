@@ -1,68 +1,56 @@
-/* Adding icon before About Me heading */
-.about-icon::before {
-  content: "";
-  display: inline-block;
-  width: 28px;
-  height: 28px;
-  margin-right: 10px;
-  vertical-align: middle;
-  background-image: url('Assets/about-removebg-preview.png');
-  background-size: contain;
-  background-repeat: no-repeat;
+/* ------------------------------
+   NAVIGATION BAR STYLING
+------------------------------- */
+nav {
+  background-color: rgba(11, 29, 42, 0.85); /* translucent navy background */
+  border-top: 3px solid #ff7e29; /* orange top border */
+  padding: 8px 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* soft shadow below nav */
 }
 
-/* Adding icon before Educational Background heading */
-.education-icon::before {
-  content: "";
-  display: inline-block;
-  width: 28px;
-  height: 28px;
-  margin-right: 10px;
-  vertical-align: middle;
-  background-image: url('Assets/graduation .png');
-  background-size: contain;
-  background-repeat: no-repeat;
+/* Flexbox layout for horizontal nav links */
+nav ul.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex; /* makes <li> items line up horizontally */
+  justify-content: center;
+  gap: 25px; /* spacing between links */
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
-/* Adding icon before Interests heading */
-.interests-icon::before {
-  content: "";
-  display: inline-block;
-  width: 28px;
-  height: 28px;
-  margin-right: 10px;
-  vertical-align: middle;
-  background-image: url('Assets/technician-removebg-preview.png');
-  background-size: contain;
-  background-repeat: no-repeat;
+/* No bullets needed; spacing is managed by Flexbox */
+.nav-list li {}
+
+/* Base nav link style */
+.nav-list a {
+  color: #ff7e29;
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  /* 👇 Improves tap area on touchscreens */
+  padding: 8px 12px;
 }
 
-/* Adding icon before Projects heading */
-.projects-icon::before {
-  content: "";
-  display: inline-block;
-  width: 28px;
-  height: 28px;
-  margin-right: 10px;
-  vertical-align: middle;
-  background-image: url('Assets/presentation-removebg-preview.png');
-  background-size: contain;
-  background-repeat: no-repeat;
+/* Nav hover/focus states */
+.nav-list a:hover,
+.nav-list a:focus {
+  color: #ffd699;
+  outline: none;
 }
 
-/* Adding icon before Contact Me heading */
-.contact-icon::before {
-  content: "";
-  display: inline-block;
-  width: 28px;
-  height: 28px;
-  margin-right: 10px;
-  vertical-align: middle;
-  background-image: url('Assets/contact-removebg-preview.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-/* Adding icon before Programming Languages heading */
+
+/* ------------------------------
+   SECTION HEADERS WITH ICONS
+------------------------------- */
+/* Common base for icons before each <h2> */
+.about-icon::before,
+.education-icon::before,
+.interests-icon::before,
+.projects-icon::before,
+.contact-icon::before,
 .programming-icon::before {
   content: "";
   display: inline-block;
@@ -70,96 +58,159 @@
   height: 28px;
   margin-right: 10px;
   vertical-align: middle;
-  background-image: url('Assets/code-removebg-preview.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
-/* Add vertical spacing between main content blocks for better aesthetics */
-/* --- HEADER --- */
-h1 {
-  background-color: rgba(11, 29, 42, 0.95); /* midnight navy */
-  padding: 20px;
-  text-align: center;
-  border-bottom: 3px solid #ff7e29; /* rocket orange accent */
-  margin: 0;
-  font-size: 2rem;
-  color: #ff7e29;
-}
-h2 {
-  margin-top: 2.2em; /* Space above section headings */
-  margin-bottom: 1em;
+
+/* Individual icon images for each section */
+.about-icon::before {
+  background-image: url('Assets/about-removebg-preview.png');
 }
 
+.education-icon::before {
+  background-image: url('Assets/graduation .png');
+}
+
+.interests-icon::before {
+  background-image: url('Assets/technician-removebg-preview.png');
+}
+
+.projects-icon::before {
+  background-image: url('Assets/presentation-removebg-preview.png');
+}
+
+.contact-icon::before {
+  background-image: url('Assets/contact-removebg-preview.png');
+}
+
+.programming-icon::before {
+  background-image: url('Assets/code-removebg-preview.png');
+}
+
+
+/* ------------------------------
+   HEADER STYLE
+------------------------------- */
+h1 {
+  background-color: rgba(11, 29, 42, 0.95); /* slightly darker header background */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #ff7e29;
+  margin: 0;
+  font-size: clamp(1.5rem, 4vw, 2rem); /* responsive font scaling */
+  color: #ff7e29;
+}
+
+/* Section title spacing and responsive sizing */
+h2 {
+  margin-top: 2.2em;
+  margin-bottom: 1em;
+  font-size: clamp(1.2rem, 3.5vw, 1.6rem);
+}
+
+
+/* ------------------------------
+   PARAGRAPH AND LIST SPACING
+------------------------------- */
 p, ol, ul {
-  margin-top: 1.2em; /* Space above and below paragraphs/lists */
+  margin-top: 1.2em;
   margin-bottom: 1.2em;
 }
 
 ul, ol {
-  padding-left: 2em; /* Indent lists */
+  padding-left: 2em; /* indent lists */
 }
-/* General icon style for inline icons */
+
+
+/* ------------------------------
+   ICON AND PROFILE IMAGE STYLES
+------------------------------- */
+/* Icon (email/envelope) next to name */
 .icon {
   font-size: 1.2em;
   margin-left: 8px;
   vertical-align: middle;
 }
 
-/* Profile image style for circular avatar */
+/* Profile image (circular avatar) */
 .profile-icon {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: cover; /* image fits inside the circle */
   margin-left: 8px;
   vertical-align: middle;
-  border: 2px solid #ffe066; /* Accent border */
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Subtle shadow */
-  background-color: #fff; /* fallback for transparent images */
+  border: 2px solid #ffe066; /* golden-yellow border */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* subtle drop shadow */
+  background-color: #fff; /* fallback background */
 }
-/* --- Background image applied to body START --- */
+
+
+/* ------------------------------
+   BODY STYLES
+------------------------------- */
 body {
-  background-image: url("Assets/hwT7ZlQF.jpg"); /* Main background image for the site */
+  background-image: url("Assets/hwT7ZlQF.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  color: #c5e4ef; /* Text color for the whole site */
+  color: #c5e4ef; /* light text color for contrast */
 }
-/* --- Background image applied to body END --- */
-/* --- SECTIONS --- */
+
+
+/* ------------------------------
+   IMAGE RESPONSIVENESS
+------------------------------- */
+img {
+  max-width: 100%; /* Ensures images never overflow container */
+  height: auto;
+}
+
+
+/* ------------------------------
+   SECTION CONTAINER STYLES
+------------------------------- */
 section {
   max-width: 900px;
   margin: 30px auto;
   padding: 25px;
-  background-color: rgba(11, 29, 42, 0.85); /* midnight navy translucent */
+  background-color: rgba(11, 29, 42, 0.85); /* translucent section background */
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); /* deep shadow for depth */
   color: #fdfdfd;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Section hover lift effect */
 section:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.7);
 }
 
-/* alternate tone for even sections */
+/* Alternate background for even-numbered sections */
 section:nth-of-type(even) {
-  background-color: rgba(30, 44, 53, 0.85); /* steel grey */
+  background-color: rgba(30, 44, 53, 0.85); /* steel gray */
 }
 
-/* --- LINKS --- */
+
+/* ------------------------------
+   LINK STYLES
+------------------------------- */
 a {
   color: #ff7e29;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
+
 a:hover {
-  color: #ffd699; /* soft orange glow on hover */
+  color: #ffd699;
 }
 
-/* --- FOOTER --- */
+
+/* ------------------------------
+   FOOTER STYLES
+------------------------------- */
 footer {
   background-color: rgba(11, 29, 42, 0.95);
   text-align: center;
@@ -170,7 +221,10 @@ footer {
   border-top: 3px solid #ff7e29;
 }
 
-/* --- BUTTON-LIKE LINKS --- */
+
+/* ------------------------------
+   PROJECT LINK BUTTON STYLES
+------------------------------- */
 .project-list a {
   display: inline-block;
   padding: 6px 10px;
@@ -180,34 +234,57 @@ footer {
   margin-top: 5px;
   transition: background-color 0.3s ease;
 }
+
 .project-list a:hover {
   background-color: #ffd699;
   color: #0b1d2a;
 }
 
-/* --- MOBILE RESPONSIVENESS --- */
+
+/* ------------------------------
+   RESPONSIVE STYLES: TABLETS
+------------------------------- */
 @media (max-width: 768px) {
   h1 {
     font-size: 1.6rem;
     padding: 15px;
   }
+
   section {
     padding: 15px;
     margin: 15px;
   }
+
   .profile-icon {
     width: 50px;
     height: 50px;
   }
+
+  /* Stack nav links vertically */
+  nav ul.nav-list {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* Add vertical space between stacked items */
+  nav ul.nav-list li {
+    padding: 10px 0;
+  }
 }
 
+
+/* ------------------------------
+   RESPONSIVE STYLES: SMALL PHONES
+------------------------------- */
 @media (max-width: 480px) {
   h1 {
     font-size: 1.4rem;
   }
+
   section {
     padding: 12px;
   }
+
   footer {
     font-size: 12px;
   }
