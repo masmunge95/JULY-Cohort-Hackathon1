@@ -51,7 +51,7 @@ To run this project locally:
 
 1. Clone or download the repository.
 2. Make sure all the image assets and `styles.css` are in the correct `Assets/` folder.
-3. Open `Portfolio.html` in your browser.
+3. Open `index.html` in your browser.
 
 ## ✍️ Author
 
