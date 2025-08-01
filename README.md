@@ -7,6 +7,7 @@ Welcome to my personal portfolio website! This project serves as an introduction
 ## 🌐 Project Overview
 
 This portfolio is built entirely with **HTML** and **CSS**, showcasing a clean structure and a modern, rocket-themed dark design.  
+
 It features:
 
 - **Introduction & Profile Section** with clickable contact icons
@@ -28,13 +29,12 @@ It also includes a downloadable CV and links to example projects.
 └── Assets/                # Folder containing images, icons, and CV
     ├── 20250730_130650.jpg               # Profile image and favicon
     ├── Samuel Waema Professional CV.pdf  # Downloadable CV
-    ├── about-removebg-preview.png        # About section icon (optional)
+    ├── about-removebg-preview.png        # About section icon
     ├── graduation .png                   # Icon for education section
     ├── technician-removebg-preview.png   # Icon for interests section
     ├── code-removebg-preview.png         # Icon for programming languages section
     ├── presentation-removebg-preview.png # Icon for projects section
     ├── contact-removebg-preview.png      # Icon for contact section
-    ├── about-removebg-preview.png        # (optional) About icon
     └── hwT7ZlQF.jpg                      # Rocket Background image
 ```
 
@@ -62,13 +62,14 @@ It also includes a downloadable CV and links to example projects.
 
 ## 🚀 Getting Started
 
-You can visite my GitHub Page at https://masmunge95.github.io/JULY-Cohort-Hackathon1/
+You can visit my GitHub Page at https://masmunge95.github.io/JULY-Cohort-Hackathon1/
 
 To run this project locally:
 
 1. Clone or download the repository:
-   ```bash
-   git clone https://github.com/masmunge95/JULY-Cohort-Hackathon1.git
+   ```
+      git clone https://github.com/masmunge95/JULY-Cohort-Hackathon1.git
+   ```
 2. Ensure all assets in the Assets/ folder remain in place.
 3. Open `index.html` in your browser.
 
