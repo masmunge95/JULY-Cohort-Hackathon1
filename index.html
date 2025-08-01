@@ -23,54 +23,74 @@
                 &#9993;
             </a>
         </h1>
-        </header>
+
+        <!-- Navigation bar with horizontal links to each page section -->
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#programming-languages">Programming Languages</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-info">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
         <main>
+            <!-- Section: About -->
+            <section id="about">
+                <h2 class="about-icon">About Me</h2> <!-- User icon shown before heading -->
+                <p>Hello! I'm Samuel Waema, a dedicated and enthusiastic learner currently enrolled in the Software Development program at PLP Academy (July 2025 Cohort).</p>
+                <p>With a background in Aerospace Engineering, I bring a structured problem-solving mindset and a deep curiosity about technology. I'm now channeling that curiosity into coding and development, as I transition into a career in software engineering.</p>
+            </section>
 
-             <!-- Section: Education -->
-            <section>
+            <!-- Section: Education -->
+            <section id="education">
                 <h2 class="education-icon">Educational Background</h2> <!-- Graduation cap icon shown before heading -->
-                <p>I hold a Bachelor's degree in Aerospace Engineering from Kenyatta University, where I developed a strong foundation in engineering principles and a brief introduction to the world of programming. My academic journey has equipped me with the skills necessary to tackle complex problems and create innovative solutions, and I'm looking forward to leveraging the skills learnt to pivot to this new interesting career path.</p>
+                <p>I hold a Bachelor's degree in Aerospace Engineering from Kenyatta University. During my studies, I gained a strong foundation in technical problem-solving, teamwork, and analytical thinking, along with early exposure to programming. These skills have equipped me to approach software development with confidence and curiosity.</p>
                 <!-- Downloadable CV link -->
                 <p><strong>Download my CV:</strong> <a href="Assets/Samuel Waema Professional CV.pdf" download>Click here to download my CV (PDF)</a></p>
             </section>
 
             <!-- Section: Interests -->
-            <section>
+            <section id="interests">
                 <h2 class="interests-icon">Interests</h2> <!-- Technician icon shown before heading -->
                 <ol type="I"> <!-- Ordered list of interests -->
                     <li>Web Development</li>
-                    <p> I have always been interested in how websites are built and maintained, as well as how developers are able to incorporate complex animations, hyperlinks and traffic management to make their sites interactive and visually appealing.</p>
+                    <p>I’ve always been fascinated by how websites are built and structured. I'm interested in creating responsive, user-friendly sites that blend design and functionality, and I'm eager to learn both front-end and back-end development practices.</p>
+
                     <li>Artificial Intelligence</li>
-                    <p> I am highly intrigued by the potential of AI to transform industries and improve our daily lives in general, whether it's assisting in learning of complex subject matter to assisting in the automation and monitoring of tedious industrial processes. I am particularly interested in machine learning and natural language processing, and the ways that they can be used to further scientific discovery.</p>
+                    <p>AI has the potential to revolutionize industries and daily life. I’m particularly drawn to machine learning and natural language processing, and how these technologies can be applied in education, automation, and scientific research.</p>
+
                     <li>Data Science</li>
-                    <p> Data in the modern world is used as a powerful tool for decision-making and predictive analytics. I am intrigued by the ways data can be collected, analyzed, and visualized to uncover insights and drive innovation in untapped markets. I am eager to learn more about data science techniques and tools, and how they can be applied to real-world problems.</p>
+                    <p>In today’s data-driven world, understanding how to collect, analyze, and visualize data is critical. I'm exploring how data science techniques can be used to extract insights, forecast trends, and solve real-world challenges in areas like healthcare, business, and development.</p>
                 </ol>
             </section>
 
             <!-- Section: Programming Languages -->
-            <section>
+            <section id="programming-languages">
                 <h2 class="programming-icon">Programming Languages</h2> <!-- Code icon shown before heading -->
-                <p>As a novice programmer, I am currently learning the following programming languages in pursuit of becoming a fully-fledged Full-Stack Developer :</p>
+                <p>I’m currently learning core programming languages that form the foundation of software and web development. These languages are helping me build a solid technical base as I grow into a full-stack developer:</p>
                 <ul>
-                    <li>Python</li>
-                    <li>HTML & CSS</li>
+                    <li><strong>Python</strong>: My first language for learning programming fundamentals such as variables, control flow, data structures, and functions. Python’s versatility makes it ideal for automation, data science, and AI.</li>
+                    <li><strong>HTML & CSS</strong>: These form the structure and styling of web pages. I’m using them to create clean, responsive layouts and develop a strong understanding of page semantics, design, and user experience.</li>
                 </ul>
             </section>
 
             <!-- Section: Projects -->
-            <section>
+            <section id="projects">
                 <h2 class="projects-icon">Projects</h2> <!-- Presentation icon shown before heading -->
-                <p>Since I'm a novice, I haven't really been able to complete any major projects yet. However, I intend on improving my skills and will hopefully have more here in the near future:</p>
+                <p>Although I’m still early in my journey, I’ve started working on beginner projects to reinforce what I’m learning and gain real-world coding experience. Each one represents a step forward in my development path:</p>
                 <ul class="project-list"> <!-- List of projects -->
                     <li class="project"> <!-- Project 1 -->
                         <h3>Fun Calculator</h3>
-                        <p>A fun calculator tool that can handle basic arithmetic operations ( addition, subtraction, multiplication, and division), as well as check if a value is an odd, even or prime number. This was built using Python, and is my first fun and basic bit of Python code.</p>
+                        <p>This is a Python-based calculator that performs basic arithmetic operations—addition, subtraction, multiplication, and division. It can also determine whether a number is odd, even, or prime. It was my first project and helped me understand Python syntax and logic building.</p>
                         <p><a href="https://github.com/masmunge95/Calculator.git" target="_blank">View Fun Calculator (Python file in GitHub)</a></p>
                     </li>
                     <li class="project"> <!-- Project 2 -->
                         <h3>Portfolio Website</h3>
-                        <p>This is the one you're currently enjoying! This is my portfolio website, which showcases my interests, educational background, and projects.</p>
+                        <p>This is the very website you’re browsing. I built it using HTML and CSS as a personal introduction and project showcase. It highlights my skills, interests, and background while also serving as a learning tool for building structured and styled content.</p>
                         <p><a href="https://github.com/masmunge95/JULY-Cohort-Hackathon1.git">View Portfolio Website's GitHub repository</a></p>
                     </li>
                 </ul>
@@ -80,9 +100,10 @@
             <section>
                 <h2 id="contact-info" class="contact-icon">Contact Me</h2> <!-- Contact icon shown before heading -->
                 <p>If you'd like to get in touch, feel free to reach out via email at <a href="mailto:waemasamuel95@gmail.com">waemasamuel95@gmail.com</a>, or fill out my contact form <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZP2f0RobxjERiqqRs9FWkH2AQdgMXs_vLKP7qRxMElynLnA/viewform?usp=dialog">here</a>.</p> <!-- Email and contact form links -->
-                </section> 
+            </section> 
         </main>
 
+        <!-- Footer with copyright -->
         <footer>
             <p>&copy; 2025 Samuel Waema | Portfolio Website</p>
         </footer>
