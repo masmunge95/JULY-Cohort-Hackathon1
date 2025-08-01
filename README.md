@@ -3,6 +3,7 @@
 Welcome to my personal portfolio website! This project serves as an introduction to who I am, my educational background, and my growing passion for technology — especially web development, artificial intelligence, and data science.
 
 
+
 ## 🌐 Project Overview
 
 This portfolio is built entirely with **HTML** and **CSS**, showcasing a clean structure and a modern, rocket-themed dark design.  
@@ -16,6 +17,7 @@ It features:
 - **Footer** for branding and copyright
 
 It also includes a downloadable CV and links to example projects.
+
 
 
 ## 📁 Project Structure
@@ -37,11 +39,13 @@ It also includes a downloadable CV and links to example projects.
 ```
 
 
+
 ## 🛠️ Technologies Used
 
 - **HTML5** — Semantic structure for each section
 - **CSS3** — Custom styling, dark theme, hover effects, and layout
 - **Responsive design** — Works well on desktop, tablet, and mobile
+
 
 
 ## 📌 Features
@@ -55,6 +59,7 @@ It also includes a downloadable CV and links to example projects.
 - 📜 **Footer** for copyright and branding
 
 
+
 ## 🚀 Getting Started
 
 You can visite my GitHub Page at https://masmunge95.github.io/JULY-Cohort-Hackathon1/
@@ -66,6 +71,7 @@ To run this project locally:
    git clone https://github.com/masmunge95/JULY-Cohort-Hackathon1.git
 2. Ensure all assets in the Assets/ folder remain in place.
 3. Open `index.html` in your browser.
+
 
 
 ## ✍️ Author
