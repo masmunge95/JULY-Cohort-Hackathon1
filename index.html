@@ -15,95 +15,97 @@
 <body>
         <!-- HEADER -->
         <header>
-        <h1>
-            <!-- Main heading with profile and contact icons -->
-            Hello, and welcome to my portfolio!
-            <!-- Profile image links to contact section -->
-            <a href="#contact-info">
-                <img src="Assets/20250730_130650.jpg" alt="Profile" class="icon profile-icon">
-            </a>
-            <!-- Email icon links to contact section -->
-            <a href="#contact-info" class="icon" title="Contact Me">
-                &#9993;
-            </a>
-        </h1>
+            <div class="header-content">
+                <div class="header-text">
+                    <h1>Samuel Waema</h1>
+                    <h2>Software Development Student</h2>
+                </div>
+                <img src="Assets/20250730_130650.jpg" alt="Samuel Waema Profile Picture" class="profile-image">
+            </div>
 
-        <!-- Navigation bar with horizontal links to each page section -->
-        <nav>
-            <ul class="nav-list">
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#interests">Interests</a></li>
-                <li><a href="#programming-languages">Programming Languages</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact-info">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+            <!-- Navigation bar with horizontal links to each page section -->
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
         <main>
             <!-- Section: About -->
             <section id="about">
-                <h2 class="about-icon">About Me</h2> <!-- User icon shown before heading -->
+                <h2><img src="Assets/about-removebg-preview.png" alt="" class="heading-icon">About Me</h2>
                 <p>Hello! I'm Samuel Waema, a dedicated and enthusiastic learner currently enrolled in the Software Development program at PLP Academy (July 2025 Cohort).</p>
                 <p>With a background in engineering, I bring a structured problem-solving mindset and a deep curiosity about technology. I'm now channeling that curiosity into coding and development, as I transition into a career in software engineering.</p>
             </section>
 
-            <!-- Section: Education -->
-            <section id="education">
-                <h2 class="education-icon">Educational Background</h2> <!-- Graduation cap icon shown before heading -->
-                <p>I hold a Bachelor's degree in Aerospace Engineering from Kenyatta University. During my studies, I gained a strong foundation in technical problem-solving, teamwork, and analytical thinking, along with early exposure to programming. These skills have equipped me to approach software development with confidence and curiosity.</p>
-                <!-- Downloadable CV link -->
-                <p><strong>Download my CV:</strong> <a href="Assets/Samuel Waema Professional CV.pdf" download>Click here to download my CV (PDF)</a></p>
-            </section>
-
-            <!-- Section: Interests -->
-            <section id="interests">
-                <h2 class="interests-icon">Interests</h2> <!-- Technician icon shown before heading -->
-                <ol type="I"> <!-- Ordered list of interests -->
-                    <li>Web Development</li>
-                    <p>I’ve always been fascinated by how websites are built and structured. I'm interested in creating responsive, user-friendly sites that blend design and functionality, and I'm eager to learn both front-end and back-end development practices.</p>
-
-                    <li>Artificial Intelligence</li>
-                    <p>AI has the potential to revolutionize industries and daily life. I’m particularly drawn to machine learning and natural language processing, and how these technologies can be applied in education, automation, and scientific research.</p>
-
-                    <li>Data Science</li>
-                    <p>In today’s data-driven world, understanding how to collect, analyze, and visualize data is critical. I'm exploring how data science techniques can be used to extract insights, forecast trends, and solve real-world challenges in areas like healthcare, business, and development.</p>
-                </ol>
-            </section>
-
-            <!-- Section: Programming Languages -->
-            <section id="programming-languages">
-                <h2 class="programming-icon">Programming Languages</h2> <!-- Code icon shown before heading -->
-                <p>I’m currently learning core programming languages that form the foundation of software and web development. These languages are helping me build a solid technical base as I grow into a full-stack developer:</p>
-                <ul>
-                    <li><strong>Python</strong>: My first language for learning programming fundamentals such as variables, control flow, data structures, and functions. Python’s versatility makes it ideal for automation, data science, and AI.</li>
-                    <li><strong>HTML & CSS</strong>: These form the structure and styling of web pages. I’m using them to create clean, responsive layouts and develop a strong understanding of page semantics, design, and user experience.</li>
-                </ul>
+            <!-- Section: Skills & Interests -->
+            <section id="skills">
+                <h2><img src="Assets/technician-removebg-preview.png" alt="" class="heading-icon">Skills & Interests</h2>
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <h3>Programming Languages</h3>
+                        <p>I’m building a solid technical base with foundational languages for full-stack development.</p>
+                        <ul>
+                            <li><strong>Python:</strong> For fundamentals, automation, and its potential in data science.</li>
+                            <li><strong>HTML & CSS:</strong> For creating clean, responsive, and semantic web structures.</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Technical Interests</h3>
+                        <p>I am fascinated by technologies that are shaping the future of the digital world.</p>
+                        <ul>
+                            <li><strong>Web Development:</strong> Crafting responsive, user-friendly sites that blend design and function.</li>
+                            <li><strong>Artificial Intelligence:</strong> Exploring machine learning and its applications in automation and research.</li>
+                            <li><strong>Data Science:</strong> Using data to extract insights, forecast trends, and solve real-world challenges.</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
 
             <!-- Section: Projects -->
             <section id="projects">
-                <h2 class="projects-icon">Projects</h2> <!-- Presentation icon shown before heading -->
-                <p>Although I’m still early in my journey, I’ve started working on beginner projects to reinforce what I’m learning and gain real-world coding experience. Each one represents a step forward in my development path:</p>
-                <ul class="project-list"> <!-- List of projects -->
-                    <li class="project"> <!-- Project 1 -->
+                <h2><img src="Assets/presentation-removebg-preview.png" alt="" class="heading-icon">Projects</h2>
+                <p>As I progress in my learning journey, I am applying my skills to practical projects. Here are a few examples of my work.</p>
+                <div class="project-cards-container">
+                    <div class="project-card">
                         <h3>Fun Calculator</h3>
-                        <p>This is a Python-based calculator that performs basic arithmetic operations—addition, subtraction, multiplication, and division. It can also determine whether a number is odd, even, or prime. It was my first project and helped me understand Python syntax and logic building.</p>
-                        <p><a href="https://github.com/masmunge95/Calculator.git" target="_blank">View Fun Calculator (Python file in GitHub)</a></p>
-                    </li>
-                    <li class="project"> <!-- Project 2 -->
+                        <p>A Python-based calculator for basic arithmetic, which also checks if a number is odd, even, or prime. This project was fundamental in understanding Python syntax and logic.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>CLI</span>
+                        </div>
+                        <a href="https://github.com/masmunge95/Calculator.git" target="_blank" class="project-link">View on GitHub</a>
+                    </div>
+                    <div class="project-card">
                         <h3>Portfolio Website</h3>
-                        <p>This is the very website you’re browsing. I built it using HTML and CSS as a personal introduction and project showcase. It highlights my skills, interests, and background while also serving as a learning tool for building structured and styled content.</p>
-                        <p><a href="https://github.com/masmunge95/JULY-Cohort-Hackathon1.git">View Portfolio Website's GitHub repository</a></p>
-                    </li>
-                </ul>
+                        <p>The very website you are browsing now. Built from scratch with HTML and CSS to showcase my skills, interests, and background while practicing web development fundamentals.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <a href="https://github.com/masmunge95/JULY-Cohort-Hackathon1.git" target="_blank" class="project-link">View on GitHub</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section: Education -->
+            <section id="education">
+                <h2><img src="Assets/graduation .png" alt="" class="heading-icon">Educational Background</h2>
+                <p>I hold a Bachelor's degree in Aerospace Engineering from Kenyatta University. This foundation in engineering provided me with strong analytical, problem-solving, and teamwork skills that I now apply to software development.</p>
+                <a href="Assets/Samuel Waema Professional CV.pdf" download class="cta-button">Download CV</a>
             </section>
             
             <!-- Section: Contact -->
-            <section>
-                <h2 id="contact-info" class="contact-icon">Contact Me</h2> <!-- Contact icon shown before heading -->
-                <p>If you'd like to get in touch, feel free to reach out via email at <a href="mailto:waemasamuel95@gmail.com">waemasamuel95@gmail.com</a>, or fill out my contact form <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZP2f0RobxjERiqqRs9FWkH2AQdgMXs_vLKP7qRxMElynLnA/viewform?usp=dialog">here</a>.</p> <!-- Email and contact form links -->
+            <section id="contact">
+                <h2><img src="Assets/contact-removebg-preview.png" alt="" class="heading-icon">Get In Touch</h2>
+                <p>I'm always open to connecting with others, discussing new ideas, or exploring opportunities. Feel free to reach out!</p>
+                <a href="mailto:waemasamuel95@gmail.com" class="cta-button">Email Me</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZP2f0RobxjERiqqRs9FWkH2AQdgMXs_vLKP7qRxMElynLnA/viewform?usp=dialog" target="_blank" class="cta-button">Contact Form</a>
             </section> 
         </main>
 
