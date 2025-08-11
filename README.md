@@ -16,7 +16,7 @@ The design features:
  
 | Desktop View | Mobile View |
 | :---: | :---: |
-| ![Desktop Screenshot](Assets/screenshot-desktop.png) | ![Mobile Screenshot](Assets/screenshot-mobile.png) |
+| ![Desktop Screenshot](Assets/screenshot-desktop.png) | ![Mobile Screenshot](Assets/screenshot-mobile.jpg) |
 
 
 ## 📁 Project Structure
