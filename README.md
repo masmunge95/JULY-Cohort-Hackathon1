@@ -5,19 +5,18 @@ Welcome to my personal portfolio website! This project serves as an introduction
 
 ## 🌐 Project Overview
 
-This portfolio is built entirely with **HTML** and **CSS**, showcasing a clean structure and a modern, rocket-themed dark design.  
+This portfolio has been completely revamped with a modern, professional, and fully responsive design. Built with **HTML5** and advanced **CSS3**, it showcases a clean, stylish aesthetic suitable for a software developer's profile.
 
-It features:
-
-- **Introduction & Profile Section** with clickable contact icons
-- **Educational Background** with a downloadable CV
-- **Interests** in tech fields like AI and Data Science
-- **Programming Languages** currently being learned
-- **Projects** with links to GitHub repositories
-- **Contact Section** with email and a Google Forms link
-- **Footer** for branding and copyright
-
-It also includes updated section descriptions, improved grammar, and cleaner layout for better readability and professionalism. The navigation bar is styled horizontally and adapts for mobile screens.
+The design features:
+- A professional dark theme with a navy blue and teal color palette.
+- A card-based layout for projects and skills.
+- A fully responsive structure that looks great on desktop, tablet, and mobile devices.
+ 
+## 📸 Screenshots
+ 
+| Desktop View | Mobile View |
+| :---: | :---: |
+| ![Desktop Screenshot](Assets/screenshot-desktop.png) | ![Mobile Screenshot](Assets/screenshot-mobile.png) |
 
 
 ## 📁 Project Structure
@@ -33,20 +32,26 @@ It also includes updated section descriptions, improved grammar, and cleaner lay
     ├── technician-removebg-preview.png   # Icon for interests section
     ├── code-removebg-preview.png         # Icon for programming languages section
     ├── presentation-removebg-preview.png # Icon for projects section
-    ├── contact-removebg-preview.png      # Icon for contact section
-    └── hwT7ZlQF.jpg                      # Rocket Background image
+    └── contact-removebg-preview.png      # Icon for contact section
 ```
 
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies & Techniques Used
 
-- **HTML5** — Semantic structure for each section and content block
-- **CSS3** — Custom styling with hover effects, fluid typography, and layout
-- **Responsive design** — Works well on desktop, tablet, and mobile devices
+-- **HTML5** — Semantic structure for each section and content block
+-- **CSS3** — Custom styling with hover effects, fluid typography, and layout
+-- **Responsive design** — Works well on desktop, tablet, and mobile devices
++- **HTML5**: Semantic structure for accessibility and SEO.
++- **CSS3**: Advanced styling for a modern look and feel.
++  - **CSS Custom Properties**: For a maintainable and consistent color scheme.
++  - **CSS Grid**: For creating the responsive card layouts.
++  - **Flexbox**: For aligning and distributing content within components.
++  - **Responsive Design**: Using media queries to ensure a seamless experience on all screen sizes.
++  - **Transitions**: For smooth hover effects on interactive elements.
 
 ## 📌 Features
 
-- ✨ **Modern dark theme** with rocket-inspired orange highlights
+- ✨ **Modern dark theme** with button accent colors
 - 🖼️ **Icons** before section headers using custom background images
 - 🎓 **Education section** with downloadable CV
 - 📚 **Interests section** (Web Dev, AI, Data Science)
@@ -58,11 +63,17 @@ It also includes updated section descriptions, improved grammar, and cleaner lay
   - Fluid font sizes using `clamp()`
   - Responsive images and improved touch targets
 - 📜 **Footer** with author credits and copyright
+ ✨ **Professional Dark Theme**: A clean navy and teal color palette.
+- 📇 **Stylish Cards**: Projects and skills are presented in modern cards with hover effects.
+- 📱 **Fully Responsive**: The layout fluidly adapts from large desktops to small mobile screens.
+- 🎓 **Clear Sections**: Dedicated, well-structured sections for About, Skills, Projects, Education, and Contact.
+- 📂 **Interactive Elements**: Includes a downloadable CV button and links to GitHub and a contact form.
+- ✍️ **Modern Typography**: Uses the 'Poppins' font from Google Fonts for excellent readability.
 
 
 ## 🚀 Getting Started
 
-You can visit my GitHub Page at https://masmunge95.github.io/JULY-Cohort-Hackathon1/
+You can visit the live site on GitHub Pages: **https://masmunge95.github.io/JULY-Cohort-Hackathon1/**
 
 To run this project locally:
 
@@ -80,5 +91,3 @@ To run this project locally:
 📧 [waemasamuel95@gmail.com](mailto:waemasamuel95@gmail.com)
 
 ---
-
-Feel free to fork this project and customize it as you grow your own web development skills!
